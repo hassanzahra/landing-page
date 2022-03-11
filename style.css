@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #feedeb;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+    
+/*HEADER*/
+.nav {
+    list-style: none;
+    text-align: right;
+    padding: 20px 0 20px 0;
+}
+.nav > li {
+    display: inline-block;
+    padding-right: 70px;
+    font-size: 15px;
+}
+.nav > li >a {
+    text-decoration: none;
+    color: #9DCCFF;
+}
+.logo {
+    float: left;
+    padding-left: 40px;
+    font-size: 15px;
+}
+/*HEADER BANNER*/
+h1 {
+    text-align: justify;
+    margin-top: 180px;
+    margin-left: 100px;
+    color: #ffaccc;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(236, 225, 255);
+}
+p {
+    width: 50;
+    margin-left: 100px;
+    text-align: justify;
+    float: left;
+    padding-right: 530px;
+   color: #ffacac;
+}
+.selflove {
+    width: 400px;
+    height: 297px;
+    text-align: center;
+    float: right;
+    position: relative;
+    top: -200px;
+    padding-right: 70px;
+    border-radius: 12%;
+}
+/*QUOTE SECTION*/
+h2 {
+    text-align: center;
+    padding-top: 360px;
+    padding-bottom: 30px;
+    padding-right: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffaccc;
+    text-decoration: underline;
+}
+.quotes {
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    background-color: rgb(236, 225, 255);
+}
+.quotes > img {
+    padding-top: 50px;
+    font-size: 15px;
+    width: 400px;
+    height: 300px;
+}
+/*QUOTE BANNER*/
+.quote {
+    position: relative;
+    top: -250px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffacac;;
+}
+/*CALL TO ACTION*/
+.learn{
+    position: relative;
+    left: 210px;
+    padding-bottom: 30px;
+    padding-top: 70px;
+    
+}
+div.signup {
+    padding-left: 550px;
+}
+div.signup > a {
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 13px;
+    font-weight:bold;
+    background-color:transparent;
+    border: 2px solid #79AADE;
+    color:#9DCCFF;
+    cursor: pointer;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/*COPYRIGHT*/
+.copyright{
+    padding-top: 50px;
+    position: relative;
+    left: 395px;
+}
